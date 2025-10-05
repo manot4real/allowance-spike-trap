@@ -5,8 +5,8 @@ drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
 
 [traps]
 
-[traps.large_single_transfer]
-path = "out/LargeSingleTransferTrap.sol/LargeSingleTransferTrap.json"
+[traps.allowance_spike_custom]
+path = "out/AllowanceSpikeTrap_Custom.sol/AllowanceSpikeTrap_Custom.json"
 response_contract = "0x25E2CeF36020A736CF8a4D2cAdD2EBE3940F4608"
 response_function = "respondWithBytes(bytes)"
 cooldown_period_blocks = 33
